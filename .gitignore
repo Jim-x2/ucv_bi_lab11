@@ -226,3 +226,11 @@ crash.log
 .terraform.lock.hcl.backup
 data/
 .DS_Store
+# Archivos generados por Spark
+/gold/
+/pipelines/gold/
+*.parquet
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
